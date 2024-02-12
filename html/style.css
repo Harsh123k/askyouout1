@@ -1,0 +1,71 @@
+*{
+    background: linear-gradient(to right, #7ac88a, #db7ea0);
+   
+  
+ 
+}
+p, button {
+    font-family: 'Arial', sans-serif; /* Change the font family as needed */
+    font-size: 30px; /* Change the font size as needed */
+    /* Add any other styles you want */
+}
+
+/* Add specific styles for the 'newButton' if needed */
+#newButton {
+    font-style: bold; 
+    font-size: 40px;/* Example: italic font style */
+}
+#gifImage {
+    display: none;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    height: 35vh;
+    width: 35vw;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    /* Add any additional styles as needed */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#step1, #step2, #step3, #step4 {
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+#gifImage {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Add more styles for responsiveness as needed */
+@media screen and (max-width: 600px) {
+    button {
+        font-size: 0.8em;
+    }
+}
